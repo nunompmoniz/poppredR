@@ -1,0 +1,16 @@
+{
+    "contents" : "helloWorld <- function() {\n  print(\"Hello World.\")\n}\n",
+    "created" : 1477426693650.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "322746769",
+    "id" : "45AE3F50",
+    "lastKnownWriteTime" : 1477431229,
+    "path" : "~/Desktop/Artigos/PhD/2017 - JDSA/RPackage/poppredR/R/poppredR.R",
+    "project_path" : "R/poppredR.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

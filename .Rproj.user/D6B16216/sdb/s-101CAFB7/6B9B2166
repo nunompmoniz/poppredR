@@ -1,0 +1,17 @@
+{
+    "contents" : "# BANDARI\n\nbandari <- function(x) {\n    \n    # You need these packages for this function\n    if (!requireNamespace(\"openNLP\", quietly = TRUE)) {\n        stop(\"Package openNLP needed for this function to work. Please install it.\", call. = FALSE)\n    }\n    \n    if (!requireNamespace(\"NLP\", quietly = TRUE)) {\n        stop(\"Package NLP needed for this function to work. Please install it.\", call. = FALSE)\n    }\n    \n}\n",
+    "created" : 1477428225583.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3410824116",
+    "id" : "6B9B2166",
+    "lastKnownWriteTime" : 1477431079,
+    "path" : "~/Desktop/Artigos/PhD/2017 - JDSA/RPackage/poppredR/R/bandari.R",
+    "project_path" : "R/bandari.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

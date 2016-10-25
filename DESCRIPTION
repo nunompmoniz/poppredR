@@ -1,0 +1,25 @@
+Package: poppredR
+Type: Package
+Title: Popularity Prediction Methods for Social Media
+Version: 1.0
+Date: 2016-10-25
+Author: person("Nuno", "Moniz", email = "nunompmoniz@gmail.com",
+                  role = c("aut", "cre"))
+Maintainer: Nuno Moniz <nmmoniz@inescporto.pt>
+Description: Provides a bundle of prediction approaches concerning the task of popularity prediction of online content in Social Media. It includes published approaches from several authors. It also provides an evaluation framework designed for several scenarios, including metrics for several degrees of granularity.
+License: GPL-3
+Imports:
+  performanceEstimation,
+  lubridate,
+  e1071,
+  DMwR,
+  randomForest,
+  earth,
+  UBL,
+  qdap
+Suggests:
+  openNLP,
+  NLP,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
